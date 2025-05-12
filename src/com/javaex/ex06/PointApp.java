@@ -13,8 +13,8 @@ public class PointApp {
 		System.out.println(p2 == p3);
 		System.out.println(p3 == p4);
 		System.out.println(p4 == p1);		
-		System.out.println(p1.equals(p2));
-		System.out.println(p4.equals(p1));
+		System.out.println(p1.equals(p2)); //false 다른 객체(주소 다름)
+		System.out.println(p4.equals(p1)); //true 같은 객체 (주소 같음)
 	}
 
 }
